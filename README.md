@@ -10,7 +10,7 @@ controllers : chứa các tập tin controller làm nhiệm vụ điều hướn
 
 models: là nơi chứa các đối tượng chính trong ứng dụng Rails, các model khi được tạo ra từ câu lệnh
 
-rails generate model <tên model>
+	rails generate model <tên model>
 
 Mặc định sẽ được kế thừa từ lớp ApplicationRecord < ActiveRecord::Base trong rails lớp ActiveRecord đóng vai trò trung gian để kết nối ứng dụng Rails với Database do đó các tập tin model còn đóng vai trò kết nối với Database để lưu trữ và truy vấn dữ liệu.
 
@@ -54,7 +54,7 @@ Tập tin seeds là nơi để nhà phát triển viết các đoạn mã script
 
 Để gọi thực thi file này ta thực hiện lệnh
 
-rake db:seed
+	rake db:seed
 
 Thư mục lib
 
@@ -84,7 +84,7 @@ Các thư viện hỗ trợ được tích hợp vào ứng dụng Rails thông 
 
 Chỉ cần khai báo tên gem vào trong tập tin Gemfile như bên dưới
 
-gem 'sqlite3'
+	gem 'sqlite3'
 
 Sau đó chạy lệnh:
 
