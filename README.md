@@ -1,4 +1,4 @@
- [b ] Thư mục app  [/b ]
+[] Thư mục app  [ ]
 
 Đây là thư mục quan trọng nhất của project vì đây là nơi chứa phần lớn source code của ứng dụng, cũng là nơi mà bạn sẽ thao tác nhiều nhất trong quá trình phát triển ứng dụng Rails.
 
